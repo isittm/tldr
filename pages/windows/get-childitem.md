@@ -16,7 +16,11 @@
 
 `Get-ChildItem -File`
 
-- List items in the current directory, including hidden items:
+- List all files in the current directory, including hidden items:
+
+`Get-ChildItem -Force`
+
+- List only hidden items in the current directory:
 
 `Get-ChildItem -Hidden`
 
